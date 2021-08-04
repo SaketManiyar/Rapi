@@ -1,12 +1,9 @@
-import React from "react";
-import SearchBox from "./SearchBox";
+import React from 'react'
 
-function Movies() {
+export const Food = () => {
   return (
     <div>
-      <SearchBox/>
+      
     </div>
-  );
+  )
 }
-
-export default Movies;

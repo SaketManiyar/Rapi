@@ -52,7 +52,7 @@ function Cardview() {
               <Card
                 border="secondary"
                 key={data.title}
-                style={{ marginTop: 30 }}
+                style={{ marginTop: 30, borderRadius: 15, borderWidth: 5 }}
               >
                 <Card.Img
                   className="mx-auto my-2"

@@ -1,7 +1,7 @@
 import React from "react";
 import SearchBox from "./SearchBox";
 
-function Movies() {
+function Songs() {
   return (
     <div>
       <SearchBox />
@@ -10,4 +10,4 @@ function Movies() {
   );
 }
 
-export default Movies;
+export default Songs;

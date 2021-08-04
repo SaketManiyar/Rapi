@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: #ffcff1;
 }
 .caraousel {
   height: 44rem;
@@ -51,4 +52,5 @@
   padding : 1rem;
   margin: 4rem 8rem 4rem;
 }
+
 

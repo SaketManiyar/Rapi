@@ -1,9 +1,9 @@
 import './App.css';
 import About from './Components/About';
-import Movies from './Components/Movies';
-import Food from './Components/Food';
+import {Movies} from './Components/Movies';
+import {Food} from './Components/Food';
 import Books from './Components/Books';
-import Weather from "./Components/Weather";
+import {Weather} from "./Components/Weather";
 import Songs from './Components/Songs';
 import Tourism from "./Components/Tourism";
 import NavigationBar from './Components/NavigationBar';
@@ -12,7 +12,7 @@ import Cardview from './Components/Cardview';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import { Footer } from "./Components/Footer";
 
-function App(props) {
+function App() {
   return (
     <BrowserRouter>
       <Switch>
